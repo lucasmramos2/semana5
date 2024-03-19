@@ -1,0 +1,9 @@
+def imprime_vogais(frase):
+    vogais = 'aeiouAEIOU'
+    for letra in frase:
+        if letra in vogais:
+            print(letra, end=' ')
+
+palavra = input("Digite uma palavra/frase: ")
+print("Vogais na palavra/frase:")
+imprime_vogais(palavra)
